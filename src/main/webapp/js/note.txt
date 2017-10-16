@@ -1,0 +1,13 @@
+	 <!-- $.datepicker.setDefaults( $.datepicker.regional['${locale}]'] );-->
+	 var locale = ${locale};
+	 if(locale=='zh_CN'){$( "#datepicker" ).datepicker( $.datepicker.regional['zh-CN']);}
+	 else{
+		 $( "#datepicker" ).datepicker();
+		 }
+		 
+		  $.datepicker.setDefaults( $.datepicker.regional['zh-CN']);
+		    var locale = ${locale};
+		 if(locale=='zh_CN'){$( "#datepicker" ).datepicker($.datepicker.regional['zh-CN']);}
+		 else{
+			 $( "#datepicker" ).datepicker($.datepicker.regional['en']);
+			 }
